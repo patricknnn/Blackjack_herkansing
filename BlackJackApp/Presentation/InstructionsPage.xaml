@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="BlackJackApp.Presentation.InstructionsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BlackJackApp.Presentation"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Grid Margin="0">
+        
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/background.png"/>
+        </Grid.Background>
+        
+        <StackPanel x:Name="_pnlnstructions" Margin="70,0" VerticalAlignment="Top">
+            <TextBlock x:Name="_lblBlackJackInstructions" TextWrapping="Wrap" Text="Instructions" VerticalAlignment="Top" Foreground="White" Margin="0,5,0,0" FontFamily="Tw Cen MT" FontSize="35" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="_lblBlackJackInstructionsBlock" HorizontalAlignment="Center" TextWrapping="Wrap" Text="The point of this game is to get as close to 21 as possible, when hitting 21 you have a blackjack. Beat the dealer to win chips! or just buy them with the free money you get in this game." VerticalAlignment="Top" Margin="0,5,0,0" FontFamily="Tw Cen MT" Foreground="White" FontSize="17"/>
+        </StackPanel>
+        
+    </Grid>
+</Page>
